@@ -19,14 +19,15 @@ input[type="number" i] {
 }
 
 .container-col {
+    width: 700px;
     display: flex;
     flex-direction: column;
 }
 
 .form-container {
-    width: 720px;
+    width: 700px;
     height: 60px;
-    padding: 0 20px 0 20px;
+    padding: 0 5% 0 5%;
     color: rgb(59, 59, 59);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -80,37 +81,36 @@ input[type="number" i] {
 .calcPay {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    margin: 0 5% 0 5%;
     height: 60px;
+
+}
+
+.calcPay div.resultContainer {
+    width: 30%;
 }
 
 .result {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 60px;
 }
 
-.result div {
+.result div.resultContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 30%;
 }
 
 .result div.itogPay {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-content: center;
     justify-content: center;
-}
-
-.result div div {
-    margin-right: 20px;
-}
-
-.foo {
-    width: 200px;
-    background-color: #eee;
-    border: #666 1px solid;
+    width: 30%;
 }
 
 .endDay {
