@@ -134,7 +134,6 @@ endDay.onclick = function(e) {
     resDivMin.append(divMinNum)
     divMinNum.innerHTML = mounthResultMin
 
-
     // let resDivMinText = document.createElement('div')
     // divResult.append(resDivMinText)
     // resDivMinText.innerHTML = "Минуты"
