@@ -1,0 +1,192 @@
+/* body .form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+
+input[type="number" i] {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 !important;
+    margin-top: 18px;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    width: 720px;
+    height: 60px;
+    padding: 0 20px 0 20px;
+    color: rgb(59, 59, 59);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    border: 1px #666 solid;
+    margin-bottom: 25px;
+}
+
+.text-first-imp {
+    width: 280px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.text-second-imp {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.form-container div {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-container div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container div div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container div input {
+    margin-right: 10px;
+    height: 22px;
+    width: 60px;
+}
+
+.dayText {
+    margin-right: 20px;
+}
+
+.dayPayment {
+    width: 150px;
+}
+
+.calcPay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+.result {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+.result div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.result div.itogPay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result div div {
+    margin-right: 20px;
+}
+
+.foo {
+    width: 200px;
+    background-color: #eee;
+    border: #666 1px solid;
+}
+
+.endDay {
+    border: 0;
+    width: 40px !important;
+    height: 40px !important;
+    background-image: url(../img/galka.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(0, 0, 0, 0);
+    margin: 10px 10px 0 0;
+}
+
+.endDay:hover {
+    background-image: url(../img/galkaBlack.png);
+}
+
+.endDay:focus {
+    outline: 0;
+}
+
+.endDay:active {
+    background-image: url(../img/galka.png);
+}
+
+#startDay {
+    border: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/plus.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(0, 0, 0, 0);
+    margin: 10px 10px 0 0;
+}
+
+#startDay:hover {
+    background-image: url(../img/plusBlack.png);
+}
+
+#startDay:focus {
+    outline: 0;
+}
+
+#startDay:active {
+    background-image: url(../img/plus.png);
+}
+
+
+
+
+#endDay {
+    border: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/galka.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(0, 0, 0, 0);
+    margin: 10px 10px 0 0;
+}
+
+#endDay:hover {
+    background-image: url(../img/galkaBlack.png);
+}
+
+#endDay:focus {
+    outline: 0;
+}
+
+#endDay:active {
+    background-image: url(../img/galka.png);
+}

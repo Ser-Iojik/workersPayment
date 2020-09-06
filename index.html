@@ -1,3 +1,38 @@
-<h2>Hello World!</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Расчёт зарплаты сотрудников</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<!-- <p id="mark">0</p> -->
+<div class="container-row">
+    <div class="container-col">
+        <div class="form-container">
+        <form name="daySalaryImp" class="calcPay">
 
-<p>Ку</p>
+            <div>
+                <div class="text-first-imp">Число рабочих дней в месяце</div>
+                <input type="number" id="days" value="0">
+            </div>
+
+            <div>
+                <div class="text-second-imp">Оклад</div>
+                <input type="number" id="salary" value="0">
+            </div>
+
+            <input type="submit" id="startDay" value="">
+            <input type="submit" id="endDay" value= "">
+
+        </form>
+        </div>
+        <div id="dayContainer" class="container-col"></div>
+        <div id="resultContainer" class="container-col"></div>
+    </div>
+</div>
+
+<script src="js/index.js"></script>
+</body>
+</html>
